@@ -1,5 +1,5 @@
 module "base" {
-  source           = "../../modules/base"
+  source           = "../../modules/customized"
   location         = "eastus"
   site_id          = "localtest"
   domain_fqdn      = "jumpstart.local"
